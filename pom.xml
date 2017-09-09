@@ -23,6 +23,7 @@
         <module>spring-cloud-config-server</module>
         <module>spring-cloud-eureka-server</module>
         <module>spring-cloud-hystrix-dashboard</module>
+        <module>spring-cloud-zipkin-server</module>
     </modules>
 
     <properties>
