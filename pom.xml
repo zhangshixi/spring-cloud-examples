@@ -20,6 +20,7 @@
     <description>Parent example project for Spring Cloud</description>
 
     <modules>
+        <module>spring-cloud-config-server</module>
         <module>spring-cloud-eureka-server</module>
     </modules>
 

@@ -1,0 +1,17 @@
+server:
+  port: 8767
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zhangshixi/
+          search-paths: config-repository.git
+          username: shixizhang@foxmail.com
+          password: she3t6net6hv3
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
