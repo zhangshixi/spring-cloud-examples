@@ -24,6 +24,7 @@
         <module>spring-cloud-eureka-server</module>
         <module>spring-cloud-hystrix-dashboard</module>
         <module>spring-cloud-zipkin-server</module>
+        <module>spring-cloud-zuul-server</module>
     </modules>
 
     <properties>

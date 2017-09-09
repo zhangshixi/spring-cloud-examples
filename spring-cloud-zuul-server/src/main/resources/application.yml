@@ -1,0 +1,15 @@
+server:
+  port: 7171
+  
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8671/eureka
+      
+zuul:
+  routes:
+    api-compute:
+      path: /api/compute/**
+      service-id: COMPUTE-SERVICE
+      
+      
